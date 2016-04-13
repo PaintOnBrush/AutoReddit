@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto-Reddit
 // @namespace    http://tampermonkey.net/
-// @version      0.5
+// @version      0.6
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.reddit.com/*
@@ -43,7 +43,7 @@ window.onload=function (){
 
     //if no entries randomize reddit.
 	delNotText=document.getElementsByClassName("link");
-    if (delNotText === 0){document.getElementsByClassName("subbarlink")[3].click();}
+    if (delNotText.length === 0){document.getElementsByClassName("subbarlink")[3].click();}
 
     //scroll page
     function pageScroll() {
