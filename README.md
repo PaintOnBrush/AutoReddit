@@ -1,8 +1,11 @@
 # AutoReddit
 Automatically browses reddit subreddits.
-<br />
+<br /><br/>
 requires Reddit Enhancement Suite
-<br />
+<br /><br/>
 install as a userscript. goto reddit and refresh that page.
+<br /><br />
+the buttons:<br />
+\ (above enter) - toggles scrolling 
 <br />
-the button:  \   (above enter) toggles scrolling 
+spacebar - skips subreddit
