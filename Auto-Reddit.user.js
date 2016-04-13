@@ -25,6 +25,7 @@ $(window).keypress(function (e) {
 //remove sidebar
 //    document.getElementsByClassName("side")[0].parentNode.removeChild(document.getElementsByClassName("side")[0]);
 
+//scroll toggle variable
 var bool = true;
 
 //wait for page load
@@ -37,6 +38,9 @@ window.onload=function (){
             delNotText[i].parentNode.removeChild(delNotText[i]);
         }
     }
+
+    //if no entries randomize reddit.
+    if (delNotText === 0){document.getElementsByClassName("subbarlink")[3].click();}
 
     //scroll page
     function pageScroll() {
