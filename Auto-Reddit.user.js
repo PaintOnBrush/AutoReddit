@@ -40,6 +40,7 @@ window.onload=function (){
     }
 
     //if no entries randomize reddit.
+	delNotText=document.getElementsByClassName("link");
     if (delNotText === 0){document.getElementsByClassName("subbarlink")[3].click();}
 
     //scroll page
