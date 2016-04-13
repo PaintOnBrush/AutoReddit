@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Auto-Reddit
 // @namespace    http://tampermonkey.net/
-// @version      0.6
+// @version      0.7
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.reddit.com/*
-// @downloadURL https://raw.githubusercontent.com/ptrakk/AutoReddit/master/Auto-Reddit.meta.js
-// @updateURL https://raw.githubusercontent.com/ptrakk/AutoReddit/master/Auto-Reddit.meta.js
+// @downloadURL https://github.com/ptrakk/AutoReddit/raw/master/Auto-Reddit.user.js
+// @updateURL https://github.com/ptrakk/AutoReddit/raw/master/Auto-Reddit.user.js
 // @grant        none
 // ==/UserScript==
 
