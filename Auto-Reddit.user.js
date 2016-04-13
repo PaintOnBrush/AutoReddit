@@ -22,6 +22,9 @@ $(window).keypress(function (e) {
     if (keyCode == 92) {
         bool = !bool;
     }
+	if (keyCode == 32) {
+	document.getElementsByClassName("subbarlink")[3].click();
+	}
 });
 
 //remove sidebar
