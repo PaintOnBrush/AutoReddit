@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Auto-Reddit
 // @namespace    http://tampermonkey.net/
-// @version      0.7
+// @version      0.8
 // @description  try to take over the world!
 // @author       You
 // @match        https://www.reddit.com/*
